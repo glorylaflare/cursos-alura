@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+    //funções
+    function pularLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(n) {
+        document.write(n);
+        pularLinha();
+    }
+
+    for (var linha = 1; linha <= 3; linha++){
+
+        for (var coluna = 1; coluna <= 10; coluna++){
+        document.write("*");
+        }
+        pularLinha();
+    }
+</script>

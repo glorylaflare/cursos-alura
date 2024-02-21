@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<canvas width="900" height="600"></canvas>
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+
+    //background da bandeira
+    pincel.fillStyle = "#009c3b";
+    pincel.fillRect(0,0,600,400);
+
+    //losango superior
+    pincel.fillStyle = "#ffdf00";
+    pincel.beginPath();
+    pincel.moveTo(300,60);
+    pincel.lineTo(530,200);
+    pincel.lineTo(70,200);
+    pincel.fill();
+    
+    //losango inferior
+    pincel.fillStyle = "#ffdf00";
+    pincel.beginPath();
+    pincel.moveTo(300,(400-60));
+    pincel.lineTo(530,200);
+    pincel.lineTo(70,200);
+    pincel.fill();
+    
+    //círculo central
+    pincel.fillStyle = "#002776";
+    pincel.beginPath();
+    pincel.arc(300,200,90,0,2*Math.PI);
+    pincel.fill();
+
+</script>

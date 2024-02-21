@@ -1,0 +1,32 @@
+[
+    {
+        "email": "teste1@alura.com.br",
+        "fullName": "Matheus Felipe",
+        "userName": "matheusf",
+        "password": "1234560"
+    },
+    {
+        "email": "teste2@alura.com.br",
+        "fullName": "Lurdes Albuquerque",
+        "userName": "ludesaq",
+        "password": "1234"
+    },
+    {
+        "email": "teste3@alura.com.br",
+        "fullName": "João Bosco",
+        "userName": "jbjoao",
+        "password": "1234569"
+    },
+    {
+        "email": "teste4@alura.com.br",
+        "fullName": "Alessandra Antunes",
+        "userName": "antunesalessandra",
+        "password": "1234567"
+    },
+    {
+        "email": "teste5@alura.com.br",
+        "fullName": "Morgana Aguiar",
+        "userName": "moraganaaguiar",
+        "password": "123456"
+    }
+]

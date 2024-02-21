@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<canvas width="900" height="600"></canvas>
+<script>
+    
+    var tamanho = 50;
+
+    function desenhaQuadrado(x, y, cor) {
+        var tela = document.querySelector("canvas");
+        var pincel = tela.getContext("2d");
+
+        pincel.fillStyle = cor;
+        pincel.fillRect(x,y,tamanho,tamanho);
+        pincel.fillStroke;
+        pincel.strokeStyle = "white";
+        pincel.strokeRect(x,y,tamanho,tamanho);
+
+    }
+
+    var numerador = parseInt(prompt("Qual o numerador da fração?"));
+    var denominador = parseInt(prompt("Qual o denominador da fração?"));
+
+    if (denominador<numerador){
+        alert("Corriga os valores!")
+    } else {
+    var i;
+    for (i=0; i<(denominador*tamanho);i+=tamanho){
+        if (i >= (numerador*tamanho)){
+            desenhaQuadrado(i,0,"#e8e8e8");
+            } else {
+                desenhaQuadrado(i,0,"#0997d9");
+            }
+    }
+    }
+</script>

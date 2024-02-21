@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<canvas width="900" height="600"></canvas>
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+    //background
+    pincel.fillStyle = "white";
+    pincel.fillRect(0,0,900,600);
+   
+    var corEsquadro = prompt("Qual será a cor do esquadro? \n(Digite a cor em inglês)")
+    //esquadro maior
+    function esquadro(a,b,c,d, cor){
+        pincel.fillStyle = cor;
+        pincel.beginPath();
+        pincel.moveTo(a,b);
+        pincel.lineTo(a,c);
+        pincel.lineTo(d,c);
+        pincel.fill();
+    }
+
+    esquadro(50,50,400,400,corEsquadro);
+    esquadro(100,175,350,275,"white");
+
+
+</script>

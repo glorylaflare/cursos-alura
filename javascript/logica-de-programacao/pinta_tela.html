@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<canvas width="900" height="600"></canvas>
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+    //background
+    pincel.fillStyle = "#000000";
+    pincel.fillRect(0,0,900,600);
+
+    function exibeBolinha(evento){
+        
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        pincel.fillStyle = "skyblue";
+        pincel.beginPath();
+        pincel.arc(x,y,10,2*3,14);
+        pincel.fill();
+
+    }
+
+    tela.onclick = exibeBolinha;
+</script>

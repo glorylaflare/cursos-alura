@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+    //funções
+    function pularLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(n) {
+        document.write(n);
+        pularLinha();
+    }
+
+    //variáveis
+    var ano = 2022;
+    var idadeJ = (ano - 1992)
+    var idadeS = (ano - 1985)
+    var idadeF = (ano - 2002)
+    var idadeK = (ano - 1999)
+    var media = (idadeJ+idadeS+idadeF+idadeK)/4
+
+    mostra("Júlio tem " + idadeJ + " anos");
+    mostra("Samara tem " + idadeS + " anos");
+    mostra("Felipe tem " + idadeF + " anos");
+    mostra("Katarina tem " + idadeK + " anos");
+    //document.write("A média das idades é " + Math.round(media));
+</script>

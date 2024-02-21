@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<canvas width="900" height="600"></canvas>
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+    //background
+    pincel.fillStyle = "white";
+    pincel.fillRect(0,0,900,600);
+    //pintura do lado esquerdo
+    pincel.fillStyle = "green";
+    pincel.fillRect(0,0,300,600);
+    //pintura do lado direito
+    pincel.fillStyle = "red";
+    pincel.fillRect(600,0,300,600);
+    
+    //triângulo central
+    pincel.fillStyle = "yellow";
+    pincel.beginPath();
+    //delimitando a área
+    pincel.moveTo(450,300);
+    pincel.lineTo(300,600);
+    pincel.lineTo(600,600);
+    //pintando área delimintada
+    pincel.fill();
+
+    //círculo central
+    pincel.fillStyle = "brown";
+    pincel.beginPath();
+    pincel.arc(450,300,80,0,2*3.14);
+    pincel.fill();
+
+</script>
