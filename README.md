@@ -13,7 +13,8 @@ Nesse repositório irei armazenar todo o conteúdo aprendido ao longo dos meus c
 ❇️ Curso: ORM com NodeJS: API com Sequelize e MySQL <br>
 ❇️ Curso: ORM com Node.js: avançando nas funcionalidades do Sequelize <br>
 ❇️ Curso: Nest.js: criando uma API Restful <br>
+❇️ Curso: Node.js e JWT: autenticação com tokens <br>
 ❇️ Formação: Aprenda a programar em Java com Orientação a Objetos <br>
 
 ## Tecnologias 
-![Skills](https://skillicons.dev/icons?i=js,html,css,jest,mongodb,sqlite,java,mysql,nestjs,sequelize)
+![Skills](https://skillicons.dev/icons?i=js,html,css,jest,mongodb,sqlite,java,mysql,nestjs,sequelize,redis)
